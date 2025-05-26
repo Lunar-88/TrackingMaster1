@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="hero">
-        <nav>
+        <nav id="nav">
             <img src="https://i.pinimg.com/736x/43/c1/12/43c112a1d0af8d2b440d8838e47108c5.jpg" class="logo">
             <div class="hamburger" onClick="toggleMenu()">&#9776;</div>"
             <ul>
@@ -31,8 +31,7 @@
     </footer>
     <script>
         function toggleMenu() {
-            const nav = document.getElementById('nav ul');
-            nav.classList.toggle('active');
+            document.getElementById('nav ul').classList.toggle('active');
         }
 </body>
 

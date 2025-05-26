@@ -87,15 +87,27 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Responsive Design */
+/*Default - hide hamburger menu in desktop*/
 .hamburger {
     display: none;
-    font-size: 45px;
-    cursor: pointer;
-    color: #fff;
-    text-align: right;
 }
 
 @media (max-width: 768px) {
+    .nav {
+        position: relative;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 30px;
+        color: #fff;
+    }
+    
     nav ul {
         flex-direction: column;
         position: absolute;
