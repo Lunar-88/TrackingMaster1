@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    background-color: #FFFFFF;
 }
 
 .hero {
@@ -92,6 +93,50 @@ nav ul li a {
     text-decoration: none;
 }
 
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #0a0a0a; /* Dark background */
+    text-align: center;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 25px;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+}
+
+.box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.box h2 {
+    color: #87ceeb;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.box p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+
+
+
+
 /* Responsive Design */
 /*Default - hide hamburger menu in desktop*/
 .hamburger {
@@ -137,3 +182,4 @@ nav ul li a {
         display: block;
     }
 }
+
