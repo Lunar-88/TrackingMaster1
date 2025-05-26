@@ -98,6 +98,7 @@ nav ul li a {
 @media (max-width: 768px) {
     #nav {
         position: relative;
+        padding: 15px 20px;
     }
 
     .hamburger {
