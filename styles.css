@@ -114,7 +114,7 @@ nav ul li a {
         justify-content: left;
         position: absolute;
         top: 60px;
-        right: 0;
+        right: 50%;
         width: 100%;
         display: none;
         padding: 20px 0;
