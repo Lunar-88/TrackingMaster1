@@ -11,7 +11,7 @@
     <div class="hero">
         <nav id="nav">
             <img src="https://i.pinimg.com/736x/43/c1/12/43c112a1d0af8d2b440d8838e47108c5.jpg" class="logo">
-            <div class="hamburger" onClick="toggleMenu()">&#9776;</div>"
+            <div class="hamburger" onClick="toggleMenu()">&#9776;</div>
             <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Crypto Recovery</a></li>
@@ -19,20 +19,22 @@
                 <li><a href="">Community</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Login</a></li>
+            </ul>
         </nav>
     </div>
     <div class="content">
         <h1>TrackingMaster</h1>
         <p>Recover your lost crypto today <br>with the help of our <br> Blockchain Experts.</p>
-        <a href="https://t.me/jay_mars_1 target="_blank" class="cta-button">Report Lost Crypto</a>
+        <a href="https://t.me/jay_mars_1" target="_blank" class="cta-button">Report Lost Crypto</a>
     </div>
     <footer>
         <p>&copy; 2025 Tracking Master</p>
     </footer>
     <script>
         function toggleMenu() {
-            document.getElementById('nav ul').classList.toggle('active');
+            document.querySelector('#nav ul').classList.toggle('active');
         }
+    </script>
 </body>
 
 </html>
