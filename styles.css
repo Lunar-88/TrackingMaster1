@@ -133,6 +133,31 @@ nav ul li a {
     color: #e0e0e0;
 }
 
+.box i {
+    font-size: 45px; /* Increased from 40px to 50px */
+    margin-bottom: 15px;
+}
+
+#laptop-icon {
+    color: #87ceeb;
+}
+
+#Blockchain {
+    background-color: #000000;
+    color: #f7931A;
+}
+
+#telegram {
+    background-color: #000000;
+    color: #0088cc;
+}
+
+#btc {
+    background-color: #000000;
+    color: #f7931A;
+}
+
+
 
 
 
@@ -180,6 +205,13 @@ nav ul li a {
 
     .hamburger {
         display: block;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .box {
+        width: 100%;
     }
 }
 
