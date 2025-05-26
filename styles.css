@@ -121,7 +121,7 @@ nav ul li a {
 
 
     nav ul.active {
-        display: flex;
+        display: block;
     }
 
     .hamburger {
