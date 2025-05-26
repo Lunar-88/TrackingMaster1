@@ -94,7 +94,7 @@ nav ul li a {
 }
 
 @media (max-width: 768px) {
-    .nav {
+    #nav {
         position: relative;
     }
 
@@ -121,7 +121,7 @@ nav ul li a {
 
 
     nav ul.active {
-        display: block;
+        display: flex;
     }
 
     .hamburger {
