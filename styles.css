@@ -184,6 +184,7 @@ nav ul li a {
     }
     
     nav ul {
+        border-radius: 100%;
         flex-direction: column;
         text-align: left;
         font-weight: bold;
@@ -211,7 +212,10 @@ nav ul li a {
 
 @media (max-width: 600px) {
     .box {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
 }
+
+
 
